@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      width: {
+        "astrulient-custom-width": "40rem",
+      },
+      // height: {
+      //   "astrulient-custom-height": "41.14rem",
+      // },
     },
   },
   plugins: [],

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Donate</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="icon" href="images/astrulient-blogs.png" type="image/x-icon">
+  </head>
+  <body>
+    <main>
+        <div id="donate-button-container" style="display: flex; justify-content: center;">
+            <div id="donate-button" style="height: 20rem; align-content: center;"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charSet="UTF-8"></script>
+            <script>
+                PayPal.Donation.Button({
+                env:'production',
+                hosted_button_id:'4WMJ8WFTKDTYW',
+                image: {
+                    src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+                    alt:'Donate with PayPal button',
+                    title:'PayPal - The safer, easier way to pay online!',
+                }
+                }).render('#donate-button');
+            </script>
+        </div>
+    </main>
+  </body>
+</html>
