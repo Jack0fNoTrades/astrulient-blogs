@@ -22,7 +22,7 @@ jobs:
         run: |
           git config --global user.email "bluelightningwang@gmail.com"
           git config --global user.name "Jack0fNoTrades"
-          git clone https://${{ env.ORG_NAME }}:${{ secrets.SCRT }}@github.com/${{ env.ORG_NAME }}/astrulient-blogs.github.io.git
+          git clone https://github.com/Astrulient/astrulient-blogs.github.io.git
           cd astrulient-blogs.github.io
           git remote add ${{ env.ORIGINAL_REPO_NAME }} https://${{ env.ORG_NAME }}:${{ secrets.PAT }}@github.com/${{ env.ORG_NAME }}/${{ env.ORIGINAL_REPO_NAME }}.git
           git remote update
