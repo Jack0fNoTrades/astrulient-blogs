@@ -60,7 +60,7 @@ body {
 
 .astrulient-blog-subsection {
   height: 4rem; 
-  margin-top: 2.4rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   align-content: center; 
 }
@@ -74,4 +74,12 @@ body {
 .astrulient-image {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+.astrulient-list {
+  font-size: 1.125rem;
+  line-height: 1.75rem; 
+  list-style-type: disc; 
+  width: 36rem;
+  justify-content: center;
 }
