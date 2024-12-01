@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./styles.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import "./styles.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Astrulient Blogs - Home",
+  title: `The "View Page Source" Function is Useful for More Than Just Software Development - Astrulient Blogs`,
   description: "discussions on various topics, interesting experiences, and more",
 };
 
-export default function RootLayout({
+export default function APPSLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -19,13 +19,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href="/images/icon.ico" />
+        <link rel="icon" href="/images/icon.ico" />
       </head>
       <body className={`${inter.className}`}>
-        <Header />
-        {children}
-        <Footer />
-      </body>
+        <div className="flex flex-col">
+          <Header />
+          {children}
+          <Footer />
+        </div>
+        </body>
     </html>
   );
 }

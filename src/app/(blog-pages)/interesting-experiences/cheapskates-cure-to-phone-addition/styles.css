@@ -32,8 +32,7 @@ body {
   }
 }
 
-.astrulient-link-hover:hover {
-  /* font-weight: 700; */
+.astrulient-link {
   text-decoration: underline;
 }
 
@@ -46,9 +45,9 @@ body {
 
 .astrulient-blog-title{
   width: 40rem;
-  height: 6rem;
+  height: auto;
   margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .astrulient-title-text {
@@ -82,4 +81,12 @@ body {
   list-style-type: disc; 
   width: 36rem;
   justify-content: center;
+}
+
+.astrulient-disclaimer {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 3rem;
 }

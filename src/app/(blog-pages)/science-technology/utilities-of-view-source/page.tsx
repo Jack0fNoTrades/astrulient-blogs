@@ -1,6 +1,6 @@
 import DonatePls from "@/components/Donations";
 import Link from "next/link";
-import "/Users/a86150/Desktop/ad-money/astrulient-blogs/src/app/(blog-pages)/styles.css";
+import "./styles.css";
 
 export default function UtilViewSource() {
     return (

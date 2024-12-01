@@ -8,17 +8,17 @@ export default function Home() {
             <h1 className="h-16 text-2xl content-center"><pre>Pick a topic & start reading</pre></h1>
             <div className="h-56 content-center">
               <div className="flex justify-center">
-                <Link href="/business-finance" className="astrulient-link-hover font-semibold">Business & Finance</Link>
+                <Link href="/business-finance" className="astrulient-link font-semibold">Business & Finance</Link>
               </div>
             </div>
           <div className="h-56 content-center">
             <div className="flex justify-center">
-              <Link href="/science-technology" className="astrulient-link-hover font-semibold">Science & Technology</Link>
+              <Link href="/science-technology" className="astrulient-link font-semibold">Science & Technology</Link>
             </div>
           </div>        
           <div className="h-56 content-center">
             <div className="flex justify-center">
-              <Link href="/interesting-experiences" className="astrulient-link-hover font-semibold">Other interesting experiences</Link>
+              <Link href="/interesting-experiences" className="astrulient-link font-semibold">Interesting Experiences</Link>
             </div>
           </div>
         </div>
