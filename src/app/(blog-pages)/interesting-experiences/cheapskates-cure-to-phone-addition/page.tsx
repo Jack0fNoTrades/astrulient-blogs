@@ -26,16 +26,26 @@ export default function PhoneCheapskate() {
             so I won't go into any of the basics you probably already know about. However, I do want to share an 
             accidental discovery of one very unorthodox way to separate you from your phone.
           </p>
+          <div className="astrulient-blog-subsection">
+            <h2 className="astrulient-subsection-text">The Beginning</h2>
+          </div>
           <p className="text-lg">
-            It all started when I bought a screen protector for my phone at a local Best Buy.
+            It all started when I bought a screen protector for my phone at a local Best Buy. The performance of the first 
+            one is pretty much what I expected: it lasted pretty well and inevitably accumulated scratches with the passing 
+            of time, but usually doesn't crack from falls. The problem came when I went to get a replacement screen protector 
+            using the lifetime warranty the original came with when I made the purchase.
           </p>
         </div>
 
         <DonatePls />
 
         <div className="w-astrulient-custom-width">
-          <p>
-          So I was
+          <p className="text-lg">
+            So I was without screen protection for my phone unless I buy new screen protectors(I did not have a phone case 
+            for my current phone, and in my experience at least, those by themselves are typically not as effective as 
+            screen protectors when it comes to preventing scratches on phone screens). Being the frugal person that I am, my 
+            first thought is if I can avoid this expenditure somehow, as my experience with Best Buy screen protectors is 
+            pretty negative. 
           </p>
         </div>
       </div>

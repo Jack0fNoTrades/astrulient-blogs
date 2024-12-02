@@ -1,6 +1,5 @@
 import DonatePls from "@/components/Donations";
 import Link from "next/link";
-import "./styles.css";
 
 export default function UtilViewSource() {
     return (
