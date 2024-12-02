@@ -43,6 +43,20 @@ body {
   justify-content: center;
 }
 
+.section-description {
+  display: flex; 
+  justify-content: center; 
+  /* height: 5rem; */
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.astrulient-blog-entry {
+  width: 60rem;
+}
+
 .astrulient-blog-title{
   width: 40rem;
   height: auto;
