@@ -45,7 +45,7 @@ export default function PhoneCheapskate() {
             for my current phone, and in my experience at least, those by themselves are typically not as effective as 
             screen protectors when it comes to preventing scratches on phone screens). Being the frugal person that I am, my 
             first thought is if I can avoid this expenditure somehow, as my experience with Best Buy screen protectors is 
-            pretty negative.    
+            pretty negative.   
           </p>
         </div>
       </div>
