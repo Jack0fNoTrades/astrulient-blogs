@@ -40,7 +40,7 @@ export default function PhoneCheapskate() {
         <DonatePls />
 
         <div className="w-astrulient-custom-width">
-          <p className="text-lg">
+          <p className="text-lg mb-24">
             So I was without screen protection for my phone unless I buy new screen protectors(I did not have a phone case 
             for my current phone, and in my experience at least, those by themselves are typically not as effective as 
             screen protectors when it comes to preventing scratches on phone screens). Being the frugal person that I am, my 
