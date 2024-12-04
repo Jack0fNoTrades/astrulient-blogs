@@ -1,4 +1,5 @@
 import DonatePls from "@/components/Donations";
+import SubsectionTitle from "@/components/SubsectionTitle";
 import Link from "next/link";
 
 export default function PhoneCheapskate() {
@@ -14,7 +15,8 @@ export default function PhoneCheapskate() {
         <p>
             Disclaimer: this blog is written for entertainment purposes only. It is not advice 
             in any way, shape, or form(With <em>maybe</em> the exception of "don't shop at Best Buy"). 
-            You're encouraged to do your own research, and we're not liable for any losses incurred.
+            You're encouraged to do your own research, and we're not liable for any losses incurred. 
+            Additionally, any previous are merely coincidental.
         </p>
         </div>
         <div className="w-astrulient-custom-width">
@@ -26,9 +28,7 @@ export default function PhoneCheapskate() {
             so I won't go into any of the basics you probably already know about. However, I do want to share an 
             accidental discovery of one very unorthodox way to separate you from your phone.
           </p>
-          <div className="astrulient-blog-subsection">
-            <h2 className="astrulient-subsection-text">The Beginning</h2>
-          </div>
+          <SubsectionTitle text = "The Beginning" />
           <p className="text-lg">
             It all started when I bought a screen protector for my phone at a local Best Buy. The performance of the first 
             one is pretty much what I expected: it lasted pretty well and inevitably accumulated scratches with the passing 
@@ -40,13 +40,17 @@ export default function PhoneCheapskate() {
         <DonatePls />
 
         <div className="w-astrulient-custom-width">
-          <p className="text-lg mb-24">
+          <SubsectionTitle text = "Getting Creative" />
+          <p className="text-lg">
             So I was without screen protection for my phone unless I buy new screen protectors(I did not have a phone case 
             for my current phone, and in my experience at least, those by themselves are typically not as effective as 
             screen protectors when it comes to preventing scratches on phone screens). Being the frugal person that I am, my 
-            first thought is if I can avoid this expenditure somehow, as my experience with Best Buy screen protectors is 
-            pretty negative. 
+            first thought is whether there's a way I can avoid this expenditure, as my experience with Best Buy 
+            screen protectors is pretty negative, and something did in fact came to mind: I had not yet thrown away the 
+            original packaging that came with my phone. It can protect my phone just as well because it is - quite literally 
+            - also a phone case.
           </p>
+          <SubsectionTitle text = "But What Does This Have to do With Phone Addiction?" />
         </div>
       </div>
     </div>

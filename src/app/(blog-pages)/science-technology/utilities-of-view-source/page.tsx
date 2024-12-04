@@ -1,4 +1,5 @@
 import DonatePls from "@/components/Donations";
+import SubsectionTitle from "@/components/SubsectionTitle";
 import Link from "next/link";
 
 export default function UtilViewSource() {
@@ -21,9 +22,7 @@ export default function UtilViewSource() {
                 However, even when one is not trying to write code, it may be beneficial to look at the source code of 
                 web pages, which I am going to explain in this blog.
               </p>
-              <div className="astrulient-blog-subsection">
-                <h2 className="astrulient-subsection-text">Scraping, but Manual</h2>
-              </div>
+              <SubsectionTitle text = "Scraping, but Manual" />
               <p className="text-lg">
                 Maybe you have never made a web scraper and you don't want to learn how to code, 
                 but you can still use the page source find the information you are looking for manually. 
@@ -67,9 +66,7 @@ export default function UtilViewSource() {
 
             <DonatePls />
 
-            <div className="astrulient-blog-subsection">
-              <h2 className="astrulient-subsection-text">Obtaining Files Without A Download Button</h2>
-            </div>
+            <SubsectionTitle text = "Obtaining Files Without A Download Button"/>
             <div className="w-astrulient-custom-width">
               <p className="text-lg">
                 I think all of us have experienced the scenario of wanting to download a file from a website, 
