@@ -10,7 +10,7 @@ export default function InterestingExperiencesSection() {
         </h1>
         <div className="astrulient-blog-entry">
           <div className="flex flex-col sm:flex-row h-12 justify-between">
-            <Link href="/interesting-experiences/cheapskates-cure-to-phone-addition" 
+            <Link href="/interesting-experiences/cheapskates-cure-to-phone-addiction" 
             className="astrulient-link font-semibold">
               The Cheapest Way to Cure Your Phone Addiction
             </Link>
